@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.poster {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cover {
+  height: 1150px;
+  background: #13afe8;
+  text-align: center;
+  padding-top: 120px;
+}
+
+
+.title-small {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 64px;
+  font-weight: 400;
+  color: white;
+}
+
+.title-big {
+  margin: 15px 0 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+
+.photo {
+  width: 480px;
+  height: 480px;
+  margin-top: 80px;
+  object-fit: cover;
+}
+
+.author {
+  margin-top: 200px;
+  font-size: 36px;
+  color: white;
+}
+
+.description {
+  padding: 50px 40px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.playlist {
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+.track:hover {
+  background: #242424;
+  transform: scale(1.02);
+
+}
+
+.track img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.info {
+  margin-left: 22px;
+  flex: 1;
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #eee;
+}
+
+.info p {
+  margin: 5px 0 0;
+  font-size: 22px;
+  color: #777;
+  font-weight: bold;
+}
+
+.like {
+  color: #888;
+  font-size: 32px;
+  margin-right: 50px;
+}
+
+time {
+  color: #888;
+  font-size: 24px;
+  font-weight: bold;
+}
